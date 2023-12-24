@@ -10,4 +10,5 @@ export const validateForm = (email, password) => {
   if (!isPasswordValid) {
     return "Please enter valid email";
   }
+  return null;
 };
